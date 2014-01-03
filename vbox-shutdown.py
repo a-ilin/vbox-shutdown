@@ -240,4 +240,4 @@ if __name__ == '__main__':
         app = VirtualBoxAutoShutdownTray()
         app.run()
     else:
-        subprocess.Popen([sys.executable.replace('python.exe', 'pythonw.exe'), __file__])
+        subprocess.Popen([sys.executable.replace('python.exe', 'pythonw.exe'), __file__] + sys.argv[1:])
