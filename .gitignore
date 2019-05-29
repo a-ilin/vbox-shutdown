@@ -1,0 +1,5 @@
+# ignore everything except vbox-shutdown.py
+*
+*.*
+!.gitignore
+!vbox-shutdown.py
